@@ -37,8 +37,6 @@ const 튜터님들 = [
 이재상님의 담당반은 B입니다.
 */
 
-const 새객체 = 튜터님들.foreach((item) => {
-  `${item.이름}님의 담당반은 ${item.담당반}입니다.`;
+튜터님들.forEach((item) => {
+  console.log(`${item.이름}님의 담당반은 ${item.담당반}입니다.`);
 });
-
-console.log();
